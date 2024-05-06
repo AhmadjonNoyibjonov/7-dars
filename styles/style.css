@@ -99,7 +99,12 @@
     text-align: left;
     color: #9A9A9A;
     border:none;
-    outline:invert;
+
+
+}
+
+.categoriya input:focus {
+    outline:none;
 }
 
 .categoriya img {
@@ -433,7 +438,7 @@
     transition: all 1s;
 }
 
-.block1:nth-child(all) .layk img {
+.block1 .layk img {
     width: 16px;
     height: 16px;
     cursor: pointer;
